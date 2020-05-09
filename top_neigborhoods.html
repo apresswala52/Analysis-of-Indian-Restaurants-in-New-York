@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_10dd51f674a742ae89b1e08cbe30bf11 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_10dd51f674a742ae89b1e08cbe30bf11" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_10dd51f674a742ae89b1e08cbe30bf11 = L.map(
+                                  'map_10dd51f674a742ae89b1e08cbe30bf11',
+                                  {center: [40.7127281,-74.0060152],
+                                  zoom: 12,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_8595e4f3e87f44bfa166a29db1c5a787 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_10dd51f674a742ae89b1e08cbe30bf11);
+        
+    
+
+            var marker_bb03f0b16857453f87ca298b9c2db2a2 = L.marker(
+                [40.76850859335492,-73.91565374304234],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_10dd51f674a742ae89b1e08cbe30bf11);
+            
+    
+            var popup_78bed86fbb064854bee87fa64810f93d = L.popup({maxWidth: '300'});
+
+            
+                var html_09c3cbc82c2f4e3c96568a40ae864173 = $('<div id="html_09c3cbc82c2f4e3c96568a40ae864173" style="width: 100.0%; height: 100.0%;">Astoria, Queens(9.0)</div>')[0];
+                popup_78bed86fbb064854bee87fa64810f93d.setContent(html_09c3cbc82c2f4e3c96568a40ae864173);
+            
+
+            marker_bb03f0b16857453f87ca298b9c2db2a2.bindPopup(popup_78bed86fbb064854bee87fa64810f93d);
+
+            
+        
+    
+
+            var marker_1d6f6d96b6ec45ca8c87ff72181a9252 = L.marker(
+                [40.73725071694497,-73.93244235260178],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_10dd51f674a742ae89b1e08cbe30bf11);
+            
+    
+            var popup_97275179fe074b559c2e810756113181 = L.popup({maxWidth: '300'});
+
+            
+                var html_42594a794da34f2db194aae80b3e0473 = $('<div id="html_42594a794da34f2db194aae80b3e0473" style="width: 100.0%; height: 100.0%;">Blissville, Queens(9.0)</div>')[0];
+                popup_97275179fe074b559c2e810756113181.setContent(html_42594a794da34f2db194aae80b3e0473);
+            
+
+            marker_1d6f6d96b6ec45ca8c87ff72181a9252.bindPopup(popup_97275179fe074b559c2e810756113181);
+
+            
+        
+    
+
+            var marker_ce29c41896794578956494dfc7267053 = L.marker(
+                [40.744034706747975,-74.00311633472813],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_10dd51f674a742ae89b1e08cbe30bf11);
+            
+    
+            var popup_2d5f4bf5b61747978fdd771f090be9a7 = L.popup({maxWidth: '300'});
+
+            
+                var html_44d0133e07014f6da1da32b1847efb62 = $('<div id="html_44d0133e07014f6da1da32b1847efb62" style="width: 100.0%; height: 100.0%;">Chelsea, Manhattan(8.8)</div>')[0];
+                popup_2d5f4bf5b61747978fdd771f090be9a7.setContent(html_44d0133e07014f6da1da32b1847efb62);
+            
+
+            marker_ce29c41896794578956494dfc7267053.bindPopup(popup_2d5f4bf5b61747978fdd771f090be9a7);
+
+            
+        
+    
+
+            var marker_af7d4e7775e5484d8fc9a980f77a73c8 = L.marker(
+                [40.59472602746295,-74.1895604551969],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_10dd51f674a742ae89b1e08cbe30bf11);
+            
+    
+            var popup_69c2530a7f2742eda0d4b8231ee073c1 = L.popup({maxWidth: '300'});
+
+            
+                var html_5c0ebea4d8a04b5793dac128a90d86e5 = $('<div id="html_5c0ebea4d8a04b5793dac128a90d86e5" style="width: 100.0%; height: 100.0%;">Chelsea, Staten Island(8.8)</div>')[0];
+                popup_69c2530a7f2742eda0d4b8231ee073c1.setContent(html_5c0ebea4d8a04b5793dac128a90d86e5);
+            
+
+            marker_af7d4e7775e5484d8fc9a980f77a73c8.bindPopup(popup_69c2530a7f2742eda0d4b8231ee073c1);
+
+            
+        
+    
+
+            var marker_50bba4af10c44fe0b3cd4f7ee78f324b = L.marker(
+                [40.693229421881504,-73.96784306216367],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_10dd51f674a742ae89b1e08cbe30bf11);
+            
+    
+            var popup_88157de483f74b2cba403330cbd25949 = L.popup({maxWidth: '300'});
+
+            
+                var html_40432b8178c546c18f998ade6f029599 = $('<div id="html_40432b8178c546c18f998ade6f029599" style="width: 100.0%; height: 100.0%;">Clinton Hill, Brooklyn(8.8)</div>')[0];
+                popup_88157de483f74b2cba403330cbd25949.setContent(html_40432b8178c546c18f998ade6f029599);
+            
+
+            marker_50bba4af10c44fe0b3cd4f7ee78f324b.bindPopup(popup_88157de483f74b2cba403330cbd25949);
+
+            
+        
+    
+
+            var marker_1f07e61ab1074d3fb84cde1c6c2af803 = L.marker(
+                [40.68852726018977,-73.97290574369092],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_10dd51f674a742ae89b1e08cbe30bf11);
+            
+    
+            var popup_36ca7881aa404636a45d78ff038ed13c = L.popup({maxWidth: '300'});
+
+            
+                var html_05f189d141224ff1a930d6e541d17fa9 = $('<div id="html_05f189d141224ff1a930d6e541d17fa9" style="width: 100.0%; height: 100.0%;">Fort Greene, Brooklyn(8.8)</div>')[0];
+                popup_36ca7881aa404636a45d78ff038ed13c.setContent(html_05f189d141224ff1a930d6e541d17fa9);
+            
+
+            marker_1f07e61ab1074d3fb84cde1c6c2af803.bindPopup(popup_36ca7881aa404636a45d78ff038ed13c);
+
+            
+        
+    
+
+            var marker_d42d884f259a46879c2054964c3d9e61 = L.marker(
+                [40.7209572076444,-73.76714166714729],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_10dd51f674a742ae89b1e08cbe30bf11);
+            
+    
+            var popup_89952f677a754d5db3cf106804816c0f = L.popup({maxWidth: '300'});
+
+            
+                var html_b62cd38b79b447b8a8fc01237c6216ff = $('<div id="html_b62cd38b79b447b8a8fc01237c6216ff" style="width: 100.0%; height: 100.0%;">Holliswood, Queens(8.5)</div>')[0];
+                popup_89952f677a754d5db3cf106804816c0f.setContent(html_b62cd38b79b447b8a8fc01237c6216ff);
+            
+
+            marker_d42d884f259a46879c2054964c3d9e61.bindPopup(popup_89952f677a754d5db3cf106804816c0f);
+
+            
+        
+    
+
+            var marker_fe50c4fa15b946ae8d6955ab6df3e8ba = L.marker(
+                [40.676822262254724,-73.9648592426269],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_10dd51f674a742ae89b1e08cbe30bf11);
+            
+    
+            var popup_c9e822201912457dbe59749c62806472 = L.popup({maxWidth: '300'});
+
+            
+                var html_348cf8203d814bc9a8708b044e6ebb16 = $('<div id="html_348cf8203d814bc9a8708b044e6ebb16" style="width: 100.0%; height: 100.0%;">Prospect Heights, Brooklyn(8.7)</div>')[0];
+                popup_c9e822201912457dbe59749c62806472.setContent(html_348cf8203d814bc9a8708b044e6ebb16);
+            
+
+            marker_fe50c4fa15b946ae8d6955ab6df3e8ba.bindPopup(popup_c9e822201912457dbe59749c62806472);
+
+            
+        
+    
+
+            var marker_e8df4b4c6a0b4939b0e624c1d61daaca = L.marker(
+                [40.658420017469815,-73.95489867077713],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_10dd51f674a742ae89b1e08cbe30bf11);
+            
+    
+            var popup_9d37ec45bdee4e478a6f9f1ec037d3a6 = L.popup({maxWidth: '300'});
+
+            
+                var html_3880254ec7d04ee4a4e641d10fbcd47e = $('<div id="html_3880254ec7d04ee4a4e641d10fbcd47e" style="width: 100.0%; height: 100.0%;">Prospect Lefferts Gardens, Brooklyn(8.7)</div>')[0];
+                popup_9d37ec45bdee4e478a6f9f1ec037d3a6.setContent(html_3880254ec7d04ee4a4e641d10fbcd47e);
+            
+
+            marker_e8df4b4c6a0b4939b0e624c1d61daaca.bindPopup(popup_9d37ec45bdee4e478a6f9f1ec037d3a6);
+
+            
+        
+    
+
+            var marker_05340c5b995b4713ae5edad5b76bb813 = L.marker(
+                [40.76215960576283,-73.94916769227953],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_10dd51f674a742ae89b1e08cbe30bf11);
+            
+    
+            var popup_7aa4b8fba2d541bf87b9873f31483bbb = L.popup({maxWidth: '300'});
+
+            
+                var html_d80e00cc6e12488c96ca1f06ca2bb353 = $('<div id="html_d80e00cc6e12488c96ca1f06ca2bb353" style="width: 100.0%; height: 100.0%;">Roosevelt Island, Manhattan(8.5)</div>')[0];
+                popup_7aa4b8fba2d541bf87b9873f31483bbb.setContent(html_d80e00cc6e12488c96ca1f06ca2bb353);
+            
+
+            marker_05340c5b995b4713ae5edad5b76bb813.bindPopup(popup_7aa4b8fba2d541bf87b9873f31483bbb);
+
+            
+        
+    
+
+            var marker_9aefc29b85de448b9b8bf8d59c086220 = L.marker(
+                [40.76028033131374,-73.96355614094303],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_10dd51f674a742ae89b1e08cbe30bf11);
+            
+    
+            var popup_ab3fbde6f3f44803979879ce3536c3a4 = L.popup({maxWidth: '300'});
+
+            
+                var html_8d1a283fcbf8413090694bc02d2734c0 = $('<div id="html_8d1a283fcbf8413090694bc02d2734c0" style="width: 100.0%; height: 100.0%;">Sutton Place, Manhattan(8.5)</div>')[0];
+                popup_ab3fbde6f3f44803979879ce3536c3a4.setContent(html_8d1a283fcbf8413090694bc02d2734c0);
+            
+
+            marker_9aefc29b85de448b9b8bf8d59c086220.bindPopup(popup_ab3fbde6f3f44803979879ce3536c3a4);
+
+            
+        
+    
+
+            var marker_f9691f820fcb4c179a1bd8b827d800be = L.marker(
+                [40.787657998534854,-73.97705923630603],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_10dd51f674a742ae89b1e08cbe30bf11);
+            
+    
+            var popup_c14de6cb5fc94703a8356d1b0344d974 = L.popup({maxWidth: '300'});
+
+            
+                var html_d468c6dd3131484f8901f3256a765a76 = $('<div id="html_d468c6dd3131484f8901f3256a765a76" style="width: 100.0%; height: 100.0%;">Upper West Side, Manhattan(8.5)</div>')[0];
+                popup_c14de6cb5fc94703a8356d1b0344d974.setContent(html_d468c6dd3131484f8901f3256a765a76);
+            
+
+            marker_f9691f820fcb4c179a1bd8b827d800be.bindPopup(popup_c14de6cb5fc94703a8356d1b0344d974);
+
+            
+        
+    
+
+            var marker_0645e5f97654404f99133694a06ef2be = L.marker(
+                [40.73443393572434,-74.00617998126812],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_10dd51f674a742ae89b1e08cbe30bf11);
+            
+    
+            var popup_ff5a0938da6447abb7e6144fb707c2b8 = L.popup({maxWidth: '300'});
+
+            
+                var html_74ada9eafb22438ab9c8d348f43ced5c = $('<div id="html_74ada9eafb22438ab9c8d348f43ced5c" style="width: 100.0%; height: 100.0%;">West Village, Manhattan(8.7)</div>')[0];
+                popup_ff5a0938da6447abb7e6144fb707c2b8.setContent(html_74ada9eafb22438ab9c8d348f43ced5c);
+            
+
+            marker_0645e5f97654404f99133694a06ef2be.bindPopup(popup_ff5a0938da6447abb7e6144fb707c2b8);
+
+            
+        
+    
+            var feature_group_971a8b6c544a4fa2a275dfe727c6b040 = L.featureGroup(
+                ).addTo(map_10dd51f674a742ae89b1e08cbe30bf11);
+        
+    
+            var circle_marker_b577236b6a794fb088204623a62b09f1 = L.circleMarker(
+                [40.76850859335492,-73.91565374304234],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_971a8b6c544a4fa2a275dfe727c6b040);
+            
+    
+            var circle_marker_94809bf029274f6782dc2bdfa0559f02 = L.circleMarker(
+                [40.73725071694497,-73.93244235260178],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_971a8b6c544a4fa2a275dfe727c6b040);
+            
+    
+            var circle_marker_af90686255e447ca9e6c43e699e3eb9f = L.circleMarker(
+                [40.744034706747975,-74.00311633472813],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_971a8b6c544a4fa2a275dfe727c6b040);
+            
+    
+            var circle_marker_5eaed830495840d2b7771e1080e9ebd2 = L.circleMarker(
+                [40.59472602746295,-74.1895604551969],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_971a8b6c544a4fa2a275dfe727c6b040);
+            
+    
+            var circle_marker_c26637a04ae240339427c7a5afd0d783 = L.circleMarker(
+                [40.693229421881504,-73.96784306216367],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_971a8b6c544a4fa2a275dfe727c6b040);
+            
+    
+            var circle_marker_7b9563a47ab842ea852b1a9f7b9363b4 = L.circleMarker(
+                [40.68852726018977,-73.97290574369092],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_971a8b6c544a4fa2a275dfe727c6b040);
+            
+    
+            var circle_marker_b63780e23ecd420c843acf86d2cf1a46 = L.circleMarker(
+                [40.7209572076444,-73.76714166714729],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_971a8b6c544a4fa2a275dfe727c6b040);
+            
+    
+            var circle_marker_3b81f5a6952b4188aa4b66c19ae06d50 = L.circleMarker(
+                [40.676822262254724,-73.9648592426269],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_971a8b6c544a4fa2a275dfe727c6b040);
+            
+    
+            var circle_marker_1eddd4ada2c240f6a009723cc38ab3ed = L.circleMarker(
+                [40.658420017469815,-73.95489867077713],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_971a8b6c544a4fa2a275dfe727c6b040);
+            
+    
+            var circle_marker_e8d4eda6809c4332b77d77931d9420ee = L.circleMarker(
+                [40.76215960576283,-73.94916769227953],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_971a8b6c544a4fa2a275dfe727c6b040);
+            
+    
+            var circle_marker_5c676e610df2471f869c80b6f8a427bf = L.circleMarker(
+                [40.76028033131374,-73.96355614094303],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_971a8b6c544a4fa2a275dfe727c6b040);
+            
+    
+            var circle_marker_06b7c0af2a2944ddb029938fa9129826 = L.circleMarker(
+                [40.787657998534854,-73.97705923630603],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_971a8b6c544a4fa2a275dfe727c6b040);
+            
+    
+            var circle_marker_e1230312434c4da3b0e9768ddc81c69b = L.circleMarker(
+                [40.73443393572434,-74.00617998126812],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_971a8b6c544a4fa2a275dfe727c6b040);
+            
+</script>
